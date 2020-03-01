@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Automation system</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="Control.json"></script>
+    <script src="process.js"></script>
+    <script src="socket.io/socket.io.js"></script>
+    <link type="text/css" rel="stylesheet" href="StyleSheet.css" />
+
+</head>
+<body>
+    <div id="wrapper">
+        <div id="loginForm">
+            <h2>Nhập tài khoản và mật khẩu:</h2>
+            <h4>Username</h4>
+            <input id="txtUsername" type="text" />
+            <br><br>
+            <h4>Mật Khẩu</h4>
+            <input id="password" type="password" />
+            <br>
+            <input id="btnLogin" type="button" value="Login" />
+        </div>
+        <div id="Dashboard">
+            <input id="btnLogout" type="button" value="Logout" />
+            <div id="stateBoard">
+                <div id="left">
+                    <div id="boxTitle">Trạng thái thiết bị</div>
+                    <div id="boxDevices">
+                    </div>
+                </div>
+                <div id="right">
+                    <div id="boxTitle2">Điều khiển</div>
+                    <div id="boxDevices2">
+                    </div>
+                </div>
+                <div id="addDevice">
+                    <input id="textDevice" type="text" />
+                    <input id="btnAdd" type="button" value="Thêm thiết bị" />
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

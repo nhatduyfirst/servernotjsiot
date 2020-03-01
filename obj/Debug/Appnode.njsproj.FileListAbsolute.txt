@@ -1,0 +1,3 @@
+D:\project\appnode\Appnode\Appnode\obj\Debug\Appnode.njsprojAssemblyReference.cache
+D:\project\appnode\Appnode\Appnode\obj\Debug\Appnode.njsproj.CoreCompileInputs.cache
+D:\project\appnode\Appnode\Appnode\bin\Microsoft.NodejsTools.WebRole.dll

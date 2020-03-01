@@ -1,0 +1,55 @@
+﻿body {
+    background-color:none;
+}
+#wrapper{
+         margin:auto;
+}
+#txtUsername {
+    background-color: white;
+    border: solid 1px black;
+}
+#password {
+    background-color: white;
+    border: solid 1px black;
+}
+#loginForm{
+    text-align:center;
+}
+#stateBoard {
+    width: 800px;
+    float: left;
+}
+#left, #right{min-height:auto;}
+#left{
+    width:40%;
+    float:left;
+    background-color:burlywood;
+}
+#right{
+    width:60%;
+    float:right;
+    background-color:burlywood;
+}
+.boxTitle {
+    border: solid 1px black;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+.boxDevices {
+    border: solid 1px black;
+    border-top: none;
+    padding: 5px;
+    text-align: center;
+}
+
+#btnLogout {
+    float:right;
+}
+#addDevice{
+    padding:5px;
+    text-align:right;
+}
+#textDevice {
+    border: solid 1px black;
+}
