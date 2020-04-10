@@ -1,6 +1,6 @@
 ﻿
 $(document).ready(function () {
-    var socket = io("http://localhost:1337")
+    var socket = io("https://servernodejsiot.herokuapp.com/:80")
     $("#Dashboard").hide(0);
     $("#loginForm").show(1000);
     $("#btnLogin").click(function () {
