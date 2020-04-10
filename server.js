@@ -8,10 +8,10 @@ app.set('view engine', 'ejs');
 
 var server = require("http").Server(app);
 var io = require("socket.io")(server);
-server.listen(1337);
+server.listen(80);
 
 
-//user và pass ??nh tr??c
+//user vÃ  pass ??nh tr??c
 var user = "admin", pass = 123;
 //Devices
 var Devices = [];
